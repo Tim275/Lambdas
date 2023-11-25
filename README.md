@@ -1,6 +1,6 @@
 Readme to be added
 # What it does
-Own Collection of Lambdas i wrote and collected from somewhere elese^^.
+Own Collection of Lambdas i wrote and collected from somewhere else^^.
 
 # Things I learned
 * AWS Lambda
