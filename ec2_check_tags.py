@@ -35,7 +35,7 @@ def lambda_handler(event, context):
     
     if flag=='STOP':
         ec2.stop_instances(InstanceIds=[ec2_instance_id])
-        snsarn="arn:aws:sns:us-east-1:123456789123:email-SNS-topic"
+        snsarn="arn:aws:sns:eu-central-1:123456789123:email-SNS-topic"
         errormsg="EC2 "+ ec2_instance_id + " stopped"
         snsresponse=sns.publish(TopicArn=snsarn,
                                 Message=errormsg,

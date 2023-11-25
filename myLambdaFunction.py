@@ -1,4 +1,9 @@
-def lambda_handler(event, context):
-    # TODO implement
-	print("hello")
-    return 'Hello from Lambda'
+def my_function():
+    print("Hello from the function")
+    return "Hello from Lambda"
+
+# Call the function
+result = my_function()
+
+# Print the result
+print(result)
